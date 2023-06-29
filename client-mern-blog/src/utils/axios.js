@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    baseURL: 'http://fullstack-front.vercel.app',
+    baseURL: 'http://fullstack-six-orcin.vercel.app',
 })
 
 instance.interceptors.request.use((config) => {
